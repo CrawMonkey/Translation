@@ -1,0 +1,63 @@
+# Basics
+yes: "Tak"
+no: "Nie"
+
+# Bot
+bot.start: "Bot został uruchomiony."
+bot.not_logged_in: "Konto nie jest połączone z Instagramem."
+bot.configuration_error: "Brak aktywnych akcji dla bota."
+bot.targets_error: "Brak aktywnych sekcji."
+bot.no_data_provided: "Brak elementów odniesienia."
+
+# Enabled
+bot.enabled.likes: "Polubienia: %check%"
+bot.enabled.comments: "Komentarze: %check%"
+bot.enabled.follow: "Obserwuj: %check%"
+bot.enabled.unfollow: "Nie-Obserwuj: %check%"
+bot.enabled.hashtags: "Tagi: %check%"
+bot.enabled.locations: "Lokalizacje: %check%"
+bot.enabled.usernames: "Użytkownicy: %check%"
+
+# Rejected
+bot.rejected.image: "Post jest filmem. Dozwolone są jedynie zdjęcia."
+bot.rejected.video: "Post jest zdjęciem. Dozwolone są jedynie filmy."
+bot.rejected.min_likes: "Post ma za mało polubień."
+bot.rejected.max_likes: "Post ma za dużo polubień."
+bot.rejected.min_comments: "Post ma za mało komentarzy."
+bot.rejected.max_comments: "Post ma za dużo komentarzy."
+bot.rejected.min_media: "Autor posta nie ma wystarczającej ilości postów."
+bot.rejected.with_avatar: "Autor posta ma awatara."
+bot.rejected.without_avatar: "Autor posta nie ma awatar."
+bot.rejected.is_me: "Bot i post dzielą to samo konto."
+bot.rejected.is_liked: "Post został już wcześniej polubiony."
+bot.rejected.is_commented: "Post został już wcześniej skomentowany."
+bot.rejected.with_biography: "Autor posta ma biografię."
+bot.rejected.without_biography: "Autor posta nie ma biografii."
+bot.rejected.hashtags_blacklist: "Post zawiera hashtag(i) z czarnej listy."
+bot.rejected.users_blacklist: "Post został dodany przez użytkownika z czarnej listy."
+bot.rejected.keywords_blacklist: "Post zawiera słowa z czarnej listy."
+bot.rejected.relation.none: "Konto nie może być w żadnej relacji z właścicielem posta."
+bot.rejected.relation.followers: "Właściciel posta obserwuje Cię."
+bot.rejected.relation.following: "Właściciel posta jest obserwowany przez Ciebie."
+bot.rejected.relation.both: "Konto musi obserwować właściciela posta oraz właściciel musi obserwować konto."
+bot.rejected.owner_information: "Nie można pobrać informacji o właścicielu posta."
+bot.rejected.too_old: "Post jest za stary."
+bot.rejected.is_private: "Konto jest prywatne."
+bot.rejected.was_followed: "Konto było już wcześniej obserwowane."
+bot.rejected.follows: "Konto jest obserwowane przez tego użytkownika."
+
+# Errors
+bot.error.not_enough_coins: "Brak wystarczającej ilości kredytów."
+bot.error.proxy: "Konto nie ma zdefiniowanej bramki proxy. Skontaktuj się za administratorem."
+bot.error.user_agent: "Konto nie ma zdefiniowanego User Agenta. Skontaktuj się za administratorem."
+bot.error.not_logged_in: "Sesja konta została unieważniona. %link_start%Zaloguj się ponownie%link_end% na konto Instagram."
+bot.error.not_action: "Włącz i uzupełnij przynajmniej jedną z akcji (Polubienia, Komentarze, Follow, Unfollow), aby bot mógł zacząć pracę."
+bot.error.not_section: "Włącz i uzupełnij przynajmniej jedną z sekcji (Hashtagi, lokalizacje, użytkownicy), aby bot mógł zacząć pracę."
+
+# Limit
+bot.limit.likes_per_account: "Limit polubień dla tego konta został osiągnięty."
+bot.limit.comments_per_account: "Limit komentarzy dla tego konta został osiągnięty."
+
+# Mails
+bot.mail.stopped.subject: "Bot został zatrzymany - CrawMonkey"
+bot.mail.coins.subject: "Niski stan kredytów konta - CrawMonkey"
