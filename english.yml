@@ -262,7 +262,7 @@ invoice.item.price.full: "Value from TAX"
 invoice.price.all: "<strong>Total:</strong>"
 invoice.signed_by: "The invoice was issued by"
 
-# Invoice e-mail
+# Invoice email
 invoice.email.title: "Invoice details"
 
 # New Instagram account (page and modal)
