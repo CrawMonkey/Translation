@@ -1,0 +1,63 @@
+# Basics
+yes: "Yes"
+no: "No"
+
+# Bot
+bot.start: "Bot was started."
+bot.not_logged_in: "The account is not linked to Instagram."
+bot.configuration_error: "No active action for bot."
+bot.targets_error: "No active sections."
+bot.no_data_provided: "No reference items."
+
+# Enabled
+bot.enabled.likes: "Likes: %check%"
+bot.enabled.comments: "Comments: %check%"
+bot.enabled.follow: "Follows: %check%"
+bot.enabled.unfollow: "Unfollows: %check%"
+bot.enabled.hashtags: "Tags: %check%"
+bot.enabled.locations: "Locations: %check%"
+bot.enabled.usernames: "Usernames: %check%"
+
+# Rejected
+bot.rejected.image: "Post is a movie. Only photos are allowed."
+bot.rejected.video: "Post is a photo, only videos are allowed."
+bot.rejected.min_likes: "Post has too few likes."
+bot.rejected.max_likes: "Post has too many likes."
+bot.rejected.min_comments: "Post has too few comments."
+bot.rejected.max_comments: "Post has too many comments."
+bot.rejected.min_media: "The author of the post does not have enough posts."
+bot.rejected.with_avatar: "The author of the post have an avatar."
+bot.rejected.without_avatar: "Author of the post does not have an avatar."
+bot.rejected.is_me: "Bot and post share the same account."
+bot.rejected.is_liked: "The post has been liked before."
+bot.rejected.is_commented: "The post has already been commented."
+bot.rejected.with_biography: "The author of the post has bio."
+bot.rejected.without_biography: "The author of the post has no bio."
+bot.rejected.hashtags_blacklist: "The post contains a hashtags from the blacklist."
+bot.rejected.users_blacklist: "The post has been added by the user from the blacklist."
+bot.rejected.keywords_blacklist: "Post contains words from the blacklist."
+bot.rejected.relation.none: "An account can not be in any relationship with the owner of the post."
+bot.rejected.relation.followers: "The post owner is following you."
+bot.rejected.relation.following: "The owner of the post is followed by you."
+bot.rejected.relation.both: "The account must follow the owner of the post and the owner must follow the account."
+bot.rejected.owner_information: "Can not retrieve information about the owner of the post."
+bot.rejected.too_old: "Post is too old."
+bot.rejected.is_private: "The account is private."
+bot.rejected.was_followed: "The account has already been following."
+bot.rejected.follows: "The account is being following by this user."
+
+# Errors
+bot.error.not_enough_coins: "Not enough coins."
+bot.error.proxy: "The account has no proxy gateway defined. Please contact the administrator."
+bot.error.user_agent: "The account has no User Agent defined. Please contact the administrator."
+bot.error.not_logged_in: "The account session has been revoked. %link_start%Login again%link_end% to your Instagram account."
+bot.error.not_action: "Enable and complete at least one of the actions (Likes, Comments, Follow, Unfollow) so that the bot can start working."
+bot.error.not_section: "Enable and complete at least one of the sections (Hashtags, locations, users) so that the bot can start working."
+
+# Limit
+bot.limit.likes_per_account: "The likes limit for this account has been reached."
+bot.limit.comments_per_account: "The comment limit for this account has been reached."
+
+# Mails
+bot.mail.stopped.subject: "Bot has been stopped - CrawMonkey"
+bot.mail.coins.subject: "Account has low coins balance - CrawMonkey"
